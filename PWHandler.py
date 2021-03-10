@@ -54,6 +54,7 @@ if connect == ADMIN_PASSWORD:
             "Your Passwordsafe has been created!\nWhat would you like to store in it?"
         )
     except:
+        print("User authenticated, welcome!")
         print("What would you like to do today?")
 
     while True:
